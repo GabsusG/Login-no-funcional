@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="EstilosRegister.css">
+</head>
+<body>
+    <div class="Register">
+        <form action="">
+            <h1>Registrarse</h1>
+
+          <div class="box">
+            <div class="register1">
+                <input type="text" placeholder="FULL NAME" required>
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="register1">
+                <input type="text" placeholder="USERNAME" required>
+                <i class='bx bxs-user'></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="register1">
+                <input type="email" placeholder="EMAIL" required>
+                <i class='bx bxs-envelope' ></i>
+            </div>
+
+            <div class="register1">
+                <input type="number" id="numeroInput" name="numeroInput" min="0" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                <i class='bx bxs-phone' ></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="register1">
+                <input type="password" placeholder="PASSWORD" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+
+            <div class="register1">
+                <input type="password" placeholder="CONFIRM PASSWORD" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+        </div>
+        <label><input type="checkbox">Soy el mejor</label>
+
+            <button type="submit" class="btn">Registrarse</button>
+        </form>
+    </div>
+    
+</body>
+</html>
